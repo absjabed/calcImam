@@ -1,0 +1,47 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style_4.css">
+	<link href="https://fonts.googleapis.com/css?
+	family=open+sans:600.,700" rel="stylesheet">
+	<title>A Simple Calculator</title>
+
+</head>
+<body>
+	<div class="container">
+		<div class="calculator">
+			<div class="result">
+				<div class="history">
+					<p class="history-value" id="matInput">0</p>
+				</div>
+				<div class="output">
+					<p class="output-value" id="matOutput">0 </p>
+				</div>
+			</div>
+			<div class="keyboard">
+				<button class="operator" onclick="cClicked()" id="clear">C</button>
+				<button class="operator" onclick="ceClicked()" id="backspace">CE</button>
+				<button onclick="numClicked(this)" class="operator" id="btnPercent">%</button>
+				<button onclick="numClicked(this)" class="operator" id="btnDivision">/</button>
+				<button onclick="numClicked(this)" class="number" id="btnSeven">7</button>
+				<button onclick="numClicked(this)" class="number" id="btnEight">8</button>
+				<button onclick="numClicked(this)" class="number" id="btnNine">9</button>
+				<button onclick="numClicked(this)" class="operator" id="btnMultiply">*</button>
+				<button onclick="numClicked(this)" class="number" id="btnFour">4</button>
+				<button onclick="numClicked(this)" class="number" id="btnFive">5</button>
+				<button onclick="numClicked(this)" class="number" id="btnSix">6</button>
+				<button onclick="numClicked(this)" class="operator" id="btnMinus">-</button>
+				<button onclick="numClicked(this)" class="number" id="btnOne">1</button>
+				<button onclick="numClicked(this)" class="number" id="btnTwo">2</button>
+				<button onclick="numClicked(this)" class="number" id="btnThree">3</button>
+				<button onclick="numClicked(this)" class="operator" id="btnAdd">+</button>
+				<button style="background-color: #eaedef;" class="empty" id="empty"></button>
+				<button onclick="numClicked(this)" class="number" id="btnZero">0</button>
+				<button onclick="numClicked(this)" class="number" id="btnDecimal">.</button>
+				<button onclick="calculateResult()" class="operator" id="btnEqual">=</button>
+			</div>
+		</div>
+	</div>
+	<script src="calcScript.js"></script>
+
+</body>
+</html>
