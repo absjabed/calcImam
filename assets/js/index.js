@@ -4,7 +4,7 @@ window.addEventListener('load', ()=>{
   
   if (navigator.serviceWorker) {
     //navigator.serviceWorker.register('/calcImam/serviceWorker.js')
-    navigator.serviceWorker.register('/calcImam/serviceWorker.js', {scope: '/calcImam/'}).then(function(registration) 
+    navigator.serviceWorker.register('/calcImam/serviceWorker.js'/*, {scope: '/calcImam/'}*/).then(function(registration) 
     {
       console.log('ServiceWorker registration successful with scope:',  registration.scope);
     }).catch(function(error) {
