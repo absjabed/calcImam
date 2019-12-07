@@ -2,6 +2,7 @@
 var mainInput = '';
 var mainResult = '';
 
+//https://codelabs.developers.google.com/codelabs/your-first-pwapp/ <-- Implementing PWA
 //https://levelup.gitconnected.com/build-a-pwa-using-only-vanilla-javascript-bdf1eee6f37a
 //https://app-manifest.firebaseapp.com/ <-- generating manifest.json for PWA configuration
 

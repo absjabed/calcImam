@@ -1,0 +1,12 @@
+{
+  "name": "calcImam",
+  "version": "1.0.0",
+  "description": "A Basic js Calculator",
+  "main": "./assets/js/index.js",
+  "repository": "https://github.com/absjabed/calcImam.git",
+  "author": "absjabed",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^11.2.0"
+  }
+}
