@@ -1,7 +1,7 @@
 const staticAssets = [
     './',
     '/calcImam/',                     // If you have separate JS/CSS files,
-    '/calcImam/index.html'  
+    '/calcImam/index.html',
     '/calcImam/assets/css/style_4.css',
     '/calcImam/assets/js/index.js',
     '/calcImam/assets/js/calcScript.js'
