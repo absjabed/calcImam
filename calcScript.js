@@ -2,6 +2,9 @@
 var mainInput = '';
 var mainResult = '';
 
+//https://levelup.gitconnected.com/build-a-pwa-using-only-vanilla-javascript-bdf1eee6f37a
+//https://app-manifest.firebaseapp.com/ <-- generating manifest.json for PWA configuration
+
 function numClicked(id) {
     mainInput += id.innerHTML;
         updateInputScreen(mainInput);
