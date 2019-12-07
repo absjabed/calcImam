@@ -1,9 +1,10 @@
 const staticAssets = [
     './',
-    './index.html',
-    './assets/css/style_4.css',
-    './assets/js/index.js',
-    './assets/js/calcScript.js'
+    '/calcImam/',                     // If you have separate JS/CSS files,
+    '/calcImam/index.html'  
+    '/calcImam/assets/css/style_4.css',
+    '/calcImam/assets/js/index.js',
+    '/calcImam/assets/js/calcScript.js'
 ];
 
 self.addEventListener('install', async event => {
